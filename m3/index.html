@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World JavaScript</title>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <h3>Tess</h3>
+    <div id="paragraf">
+    </div>
+    <button class="btn">Click Me</button>
+    <script>
+        document.querySelector('h1').textContent = "Halo Dunia";
+        // Menambah Node Baru
+        var h2 = document.createElement('h2');
+        h2.textContent = "Heading 2";
+        document.body.appendChild(h2);
+
+        // Menghapus Node
+        var h1 = document.querySelector('h1');
+        h1.parentNode.removeChild(h1);
+
+        let paragraf = document.getElementById('paragraf');
+        let p = document.createElement('p');
+        p.innerHTML = "Ini pragraf";
+        paragraf.appendChild(p);
+
+        document.querySelector('h3').textContent = 'Heading 3';
+
+        function myFunction() {
+            alert("You Clicked Me!");
+        }
+
+        let btn = document.querySelector('.btn');
+        btn.addEventListener('click', function (){
+            alert("Tombol di klik!");
+        });
+    </script>
+</body>
+</html>

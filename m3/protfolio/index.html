@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="Portfolio pribadi — Web Developer & Designer"
+        />
+        <title>Nama Anda | Portfolio</title>
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <!-- Google Fonts -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <!-- Font Awesome (opsional) -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        />
+    </head>
+    <body>
+        <!-- Header & Navbar -->
+        <header class="header" id="home">
+            <nav class="navbar">
+                <a href="#home" class="logo">Nama<span>.</span></a>
+                <div class="nav-menu" id="navMenu">
+                    <a href="#home" class="nav-link">Beranda</a>
+                    <a href="#about" class="nav-link">Tentang</a>
+                    <a href="#projects" class="nav-link">Proyek</a>
+                    <a href="#contact" class="nav-link">Kontak</a>
+                </div>
+                <div class="toggle">
+                    <div class="nav-toggle" id="navToggle">
+                        <i class="fas fa-bars"></i>
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <button class="theme-toggle" id="themeToggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </div>
+            </nav>
+
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="hero-content">
+                    <h1>Halo, saya <span class="highlight">Nama Anda</span></h1>
+                    <h2>Web Developer & UI/UX Enthusiast</h2>
+                    <p>
+                        Membangun pengalaman digital yang cepat, responsif, dan
+                        menarik.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn">Lihat Proyek</a>
+                        <a href="#contact" class="btn btn-outline"
+                            >Hubungi Saya</a
+                        >
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img class="avatar" src="assets/img/logo.png" />
+                </div>
+            </section>
+        </header>
+
+        <!-- Tentang Saya -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">Tentang Saya</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            Saya adalah seorang web developer dengan pengalaman
+                            dalam membangun aplikasi web menggunakan HTML, CSS,
+                            JavaScript, dan framework modern.
+                        </p>
+                        <p>
+                            Saya percaya bahwa teknologi harus mudah diakses,
+                            cepat, dan indah. Saat ini sedang mendalami React
+                            dan pengembangan backend dengan Node.js.
+                        </p>
+                        <div class="skills">
+                            <h3>Keahlian:</h3>
+                            <div class="skill-tags">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                                <span>Responsive Design</span>
+                                <span>Git & GitHub</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <div class="image-placeholder">
+                            <!-- <img src="https://placehold.co/580x300" alt=""> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Proyek -->
+        <section id="projects" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">Proyek Terbaru</h2>
+                <div class="projects-grid">
+                    <!-- Proyek 1 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="image-placeholder">
+                                <div class="image-placeholder"></div>
+                                <!-- <img src="https://placehold.co/400x200" alt=""> -->
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Aplikasi Cuaca</h3>
+                            <p>
+                                Aplikasi cuaca real-time menggunakan API
+                                OpenWeatherMap.
+                            </p>
+                            <div class="tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JS</span>
+                                <span>API</span>
+                            </div>
+                            <a href="#" class="btn-link">Lihat Demo →</a>
+                        </div>
+                    </div>
+
+                    <!-- Proyek 2 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="image-placeholder"></div>
+                            <!-- <img src="https://placehold.co/400x200" alt=""> -->
+                        </div>
+                        <div class="project-info">
+                            <h3>Todo List App</h3>
+                            <p>
+                                Aplikasi manajemen tugas sederhana dengan
+                                localStorage.
+                            </p>
+                            <div class="tech">
+                                <span>JS</span>
+                                <span>CSS</span>
+                                <span>Local Storage</span>
+                            </div>
+                            <a href="#" class="btn-link">Lihat Kode →</a>
+                        </div>
+                    </div>
+
+                    <!-- Proyek 3 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="image-placeholder"></div>
+                            <!-- <img src="https://placehold.co/400x200" alt=""> -->
+                        </div>
+                        <div class="project-info">
+                            <h3>Landing Page Kafe</h3>
+                            <p>
+                                Desain responsif untuk bisnis lokal dengan
+                                animasi halus.
+                            </p>
+                            <div class="tech">
+                                <span>HTML</span>
+                                <span>CSS Grid</span>
+                                <span>Flexbox</span>
+                            </div>
+                            <a href="#" class="btn-link">Lihat Desain →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Kontak -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Mari Berkolaborasi!</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <p>
+                            📩 Kirim pesan via form di bawah, atau hubungi
+                            langsung:
+                        </p>
+                        <ul class="contact-links">
+                            <li>
+                                <i class="fas fa-envelope"></i> nama@email.com
+                            </li>
+                            <li>
+                                <i class="fab fa-github"></i>
+                                github.com/namakamu
+                            </li>
+                            <li>
+                                <i class="fab fa-linkedin"></i>
+                                linkedin.com/in/namakamu
+                            </li>
+                        </ul>
+                    </div>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input
+                                type="text"
+                                id="name"
+                                placeholder="Nama Anda"
+                                required
+                            />
+                        </div>
+                        <div class="form-group">
+                            <input
+                                type="email"
+                                id="email"
+                                placeholder="Email"
+                                required
+                            />
+                        </div>
+                        <div class="form-group">
+                            <textarea
+                                id="message"
+                                rows="4"
+                                placeholder="Pesan Anda..."
+                                required
+                            ></textarea>
+                        </div>
+                        <button type="submit" class="btn">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <p>&copy; 2025 Nama Anda. Dibuat dengan ❤️ dan HTML/CSS/JS.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </footer>
+
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
